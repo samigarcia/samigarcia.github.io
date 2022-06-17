@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <!--Lo que se muentra hasta arriba-->
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>CURSO CSS</title>
+        <link rel='shortcut icon' href='imagenes/mundodigital.jpg' type='image/png'>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Videojuegos  y Mas">
+        <meta name="description" content="Este es mi sitio web donde hablo 
+        acerca de los videojuegos de Battle exitosos!">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://samigarcia.github.io">
+        <meta property="og:title" content="Videojuegos  y Mas">
+        <meta property="og:description" content="Este es mi sitio web donde 
+        hablo acerca de los videojuegos de Battle exitosos!">
+        <meta property="og:image" content="https://samigarcia.github.io/imagenes/maxres.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://samigarcia.github.io">
+        <meta property="twitter:title" content="Videojuegos  y Mas">
+        <meta property="twitter:description" content="Este es mi sitio 
+        web donde hablo acerca de los videojuegos de Battle exitosos!">
+        <meta property="twitter:image" content="https://samigarcia.github.io/imagenes/maxres.jpg">
+
+    </head>
+
+    <!--Cuerpo del Codigo de HTML-->
+    <body>
+
+        <!--Codigo de Inicio "Menu o Barra de Navegacion" HTML-->
+        <header class ="hero">
+            <nav class="nav container">
+
+                <!--Navegacion Logo-->
+                <div class="nav_logo">
+                    <h2 class="nav_title">Curso CSS.</h2>
+                </div>
+
+                <!--Links de Navegacion-->
+                <ul class="nav_link nav_link--menu">
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Acerca De</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Blog</a>
+                    </li>
+
+                    <img src="./imagenes/cerrar.svg" class="nav_close">
+                </ul>
+
+                <!--Menu de Navegacion-->
+                <div class="nav_menu">
+                    <img src="./imagenes/menu.svg" class="nav_img">
+                </div>
+            </nav>
+
+            <section class="hero_container container">
+                <h1 class="hero_title"> Aprende CSS Desde Cero Hasta Dominarlo.</h1>
+                <p class="hero_paragraph">
+                    Elige aprender CSS desde cero no lo pienses mas aprovecha esta gran oportunidad que esperas!, Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                </p>
+                <a href="#" class="cta">Comienza Ahora</a>
+            </section>
+        </header>
+
+        <!--Inicio de Secciones de la Pajina Web-->
+        <main>
+
+        <!--Primera Seccion-->
+        <section class="container about">
+            <h2 class="subtitle">¿Que aprenderas en este curso?</h2>
+            <p class="about_paragraph">Todo lo necesario y obligatorio de CSS, (Flexbox, Grid, Custom, Properties, Position, Animaciones, Box models y mas)</p>
+
+            <!--Creacion de Articulos-->
+            <div class="about_main">
+
+                <!--primer articulo-->
+                <article class="about_icons">
+                    <img src="./imagenes/cuadrito.svg" class="about_icon">
+                    <h3 class="about_title">CSS Layouts</h3>
+                    <p class="about_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sunt quis id dignissimos quos sit corporis fuga facilis ipsa inventore nostrum enim.</p>
+                </article>
+
+                <!--segundo articulo-->
+                <article class="about_icons">
+                    <img src="./imagenes/pintar.svg" class="about_icon">
+                    <h3 class="about_title">Animaciones</h3>
+                    <p class="about_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sunt quis id dignissimos quos sit corporis fuga facilis ipsa inventore nostrum enim.</p>
+                </article>
+
+                <!--tercer articulo-->
+                <article class="about_icons">
+                    <img src="./imagenes/codigo.svg" class="about_icon">
+                    <h3 class="about_title">Codigo</h3>
+                    <p class="about_paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sunt quis id dignissimos quos sit corporis fuga facilis ipsa inventore nostrum enim.</p>
+                </article>
+            </div>
+        </section>
+
+        <!--Segunda Seccion-->
+        <section class="knowledg">
+               <div class="knowledg_container container">
+
+                    <!--Parrafo 1-->
+                   <div class="knowledg_texts">
+                       <h2 class="subtitle">Curso completo de CSS ¡Dominalo de una vez por todas!</h2>
+                       <p class="knowledg_paragraph">Aplica Restricciones</p>
+                       <a href="#" class="cta">Entra al Curso</a>
+                   </div>
+
+                   <figure class="knowledg_picture">
+                       <img src="./imagenes/naveespacial.jpg" class="knowledg_image">
+                   </figure>
+               </div> 
+        </section>
+
+        <!--Tercera Seccion-->
+        <section class="price container">
+            <h2 class="subtitle">Obten el plan perfecto para aprender</h2>
+            <!--Creacion de cuadritos-->
+            <div class="price_table">
+
+                <!--Uno-->
+                <div class="price_element">
+                    <p class="price_name">Flexbox</p>
+                    <h3 class="price_price">Free</h3>
+                
+                    <div class="price_items">
+                        <p class="features">Flexbox</p>
+                        <p class="features">Layouts</p>
+                        <p class="features">Responsive</p>
+                    </div>
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+                <!--Dos-->
+                <div class="price_element price_element--best">
+                    <p class="price_name">Grid</p>
+                    <h3 class="price_price">$30/mes</h3>
+                
+                    <div class="price_items">
+                        <p class="features">Grid</p>
+                        <p class="features">Implicit Grid</p>
+                        <p class="features">Responsive</p>
+                    </div>
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+                <!--Tres-->
+                <div class="price_element">
+                    <p class="price_name">Animaciones</p>
+                    <h3 class="price_price">40/mes</h3>
+                
+                    <div class="price_items">
+                        <p class="features">Animations</p>
+                        <p class="features">Transition</p>
+                        <p class="features">Render website</p>
+                    </div>
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+            </div>    
+        </section>
+
+        <!--Cuarta Seccion-->
+        <section class="textimony">
+            <div class="textimony_container container">
+                <img src="./imagenes/flechaatras.svg" class="textimony_arrow" id="before">
+
+                <!--Primera Persona osea yo!-->
+                <section class="textimony_body textimony_body--show" data-id="1">
+                    <div class="textimony_text">
+                        <h2 class="subtitle">Mi nombre es sami david, <span class="textimony_course">estudiante CSS.</span></h2>
+                        <p class="textimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque assumenda odio temporibus, dolore commodi, aliquid blanditiis a corrupti eum fugiat veritatis dolor inventore est quibusdam nostrum fuga sapiente facere?</p>
+                    </div>
+                    <figure class="textimony_picture">
+                        <img src="./imagenes/mundodigital.jpg" class="textimony_img">
+                    </figure>
+                </section>
+
+                <!--Segunda Persona!-->
+                <section class="textimony_body" data-id="2">
+                    <div class="textimony_text">
+                        <h2 class="subtitle">Mi nombre es Sofia Gutierrez, <span class="textimony_course">estudiante CSS.</span></h2>
+                        <p class="textimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque assumenda odio temporibus, dolore commodi.</p>
+                    </div>
+                    <figure class="textimony_picture">
+                        <img src="./imagenes/mundodigital.jpg" class="textimony_img">
+                    </figure>
+                </section>
+
+                <!--Tercera Persona!-->
+                <section class="textimony_body" data-id="3">
+                    <div class="textimony_text">
+                        <h2 class="subtitle">Mi nombre es Alan Martinez, <span class="textimony_course">estudiante CSS.</span></h2>
+                        <p class="textimony_review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum neque assumenda odio temporibus, dolore commodi.</p>
+                    </div>
+                    <figure class="textimony_picture">
+                        <img src="./imagenes/mundodigital.jpg" class="textimony_img">
+                    </figure>
+                </section>
+
+                <img src="./imagenes/flechaadelante.svg" class="textimony_arrow" id="next">
+            </div>
+        </section>
+
+        <!--Ultima Seccion-->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas Frecuentes</h2>
+            <p class="questions_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit totam quos soluta unde..</p>
+
+            <!--Creacion de Articulos-->
+            <section class="questions_container">
+
+                <!--Articulo Uno-->
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Que es CSS?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat optio iure, eligendi voluptas dignissimos, accusamus minus magnam ducimus corporis atque animi. Ducimus quasi beatae suscipit repellendus alias excepturi qui?, Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ad exercitationem tempore. Rerum quis incidunt quibusdam labore quasi ad, sit quidem libero in provident, necessitatibus perferendis maxime porro hic vitae.</p>
+                    </div>
+                </article>
+
+                <!--Articulo Dos-->
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Que es CSS Grid?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat optio iure, eligendi voluptas dignissimos, accusamus minus magnam ducimus corporis atque animi. Ducimus quasi beatae suscipit repellendus alias excepturi qui?, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ducimus quae, harum delectus officiis necessitatibus id maiores nesciunt ullam, dolores nemo dignissimos architecto repellat, illum placeat perferendis voluptates corporis qui?</p>
+                    </div>
+                </article>
+
+                <!--Articulo Tres-->
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Que Aprendere en Este Curso?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat optio iure, eligendi voluptas dignissimos, accusamus minus magnam ducimus corporis atque animi. Ducimus quasi beatae suscipit repellendus alias excepturi qui?, Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis tempora voluptatibus modi. Minima, iste non. Nostrum architecto labore, porro omnis distinctio accusamus est facere tempora qui in totam, dignissimos iste!</p>
+                    </div>
+                </article>
+
+            </section>
+
+            <!--Articulo Final-->
+            <section class="questions_offer">
+                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
+                <p class="questions_copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati molestias quaerat dolorum velit omnis molestiae provident quod aliquid. Ratione quidem sunt deserunt alias. Iusto eos fugit laborum voluptatum sit unde?</p>
+                <a href="#" class="cta">Aprende ahora</a>
+            </section>
+
+        </section>
+        </main>
+
+        <!--Final de la Pajina Web-->
+        <footer class="footer">
+            <section class="footer_container container">
+            <nav class="nav nav--footer">
+
+                <h2 class="footer_title">Curso CSS.</h2>
+
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Inicio</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#" class="nav_links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer_form" action="https://formspree.io/f/xeqndrbn"
+            method="POST">
+                <h2 class="footer_newsletter">Suscribete a la newsletter</h2>
+                <div class="footer_inputs">
+                    <input type="email" Placeholder="Email" class="footer_input" name="email">
+                    <input type="submit" value="Sucribete" class="footer_submit">
+                </div>
+            </form>
+            </section>
+
+            <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="#" class="footer_icons">
+                    <img src="./imagenes/facebook.svg" class="footer_img">
+                </a>
+                <a href="#" class="footer_icons">
+                    <img src="./imagenes/instagram.svg" class="footer_img">
+                </a>
+                <a href="#" class="footer_icons">
+                    <img src="./imagenes/twitter.svg" class="footer_img">
+                </a>
+                <a href="#" class="footer_icons">
+                    <img src="./imagenes/youtube.svg" class="footer_img">
+                </a>
+            </div>
+
+            <h3 class="footer_copyright">
+                Derechos Reservados &copy; SamGarcia
+            </h3>
+            </section>
+        </footer>
+
+        <!--Comportamiento de la Pajina Web Usando JavaScript-->
+        <script src="./js/slider.js"></script>
+        <script src="./js/questions.js"></script>
+        <script src="./js/menu.js"></script>
+
+    </body>
+</html> 
